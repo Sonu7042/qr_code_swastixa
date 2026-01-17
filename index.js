@@ -5,16 +5,29 @@ const app = express();
 const PORT = 3000;
 
 // vCard contact info
+// const vcard = `BEGIN:VCARD
+// VERSION:3.0
+// FN: Praveen Sharma
+// TITLE: Founder & CEO
+// ORG: Swastixa Digital
+// TEL:+91 9891824688
+// EMAIL:abhishek.sharma@swastixa.com
+// URL:www.swastixa.com
+// ADR:New Delhi, India
+// END:VCARD`;
+
+
 const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN: Praveen Sharma
-TITLE: Founder & CEO
+FN: Kamal Falwaria
+TITLE: Co-Founder
 ORG: Swastixa Digital
-TEL:+91 9891824688
-EMAIL:abhishek.sharma@swastixa.com
+TEL:+91 9212582134
+EMAIL:kamal.falwaria@swastixa.com
 URL:www.swastixa.com
 ADR:New Delhi, India
 END:VCARD`;
+
 // Route to display QR in browser
 app.get("/", async (req, res) => {
   try {

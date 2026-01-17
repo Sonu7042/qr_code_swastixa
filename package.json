@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^3.2.0",
     "express": "^5.1.0",
+    "qr-code-styling": "^1.9.2",
     "qrcode": "^1.5.4"
   }
 }
